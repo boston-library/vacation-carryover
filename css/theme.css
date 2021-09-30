@@ -1,0 +1,41 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+.navbar {
+  height: 120px;
+
+  /* Old browsers */
+  background: #ffffff;
+
+  /* FF3.6-15 */
+  background: -moz-linear-gradient(left, #ffffff 0%, #ffffff 20%, #ecf7fb 40%, #c0e3f1 60%, #b5deef 80%, #b5deef 100%);
+
+  /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-linear-gradient(left, #ffffff 0%,#ffffff 20%,#ecf7fb 40%,#c0e3f1 60%,#b5deef 80%,#b5deef 100%);
+
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: linear-gradient(to right, #ffffff 0%,#ffffff 20%,#ecf7fb 40%,#c0e3f1 60%,#b5deef 80%,#b5deef 100%);
+
+  /* IE6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#b5deef',GradientType=1 );
+}
+
+.noscript .spinner {
+  display: none;
+}
